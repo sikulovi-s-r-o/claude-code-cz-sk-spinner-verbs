@@ -62,6 +62,7 @@ cd spinery
 |---|---|---|---|
 | [cimrman](themes/cs/cimrman.json) | cs | 25 | Verbatim phrases and play titles from the Jára Cimrman theatre universe |
 | [pelisky](themes/cs/pelisky.json) | cs | 25 | Verbatim quotes from the 1999 Czech film *Pelíšky* |
+| [warcraft-cz](themes/cs/warcraft-cz.json) | cs | 22 | Verbatim quotes from the Czech dub of Warcraft III: Reign of Chaos |
 | [lakatos](themes/cs/lakatos.json) | cs · **nsfw** | 30 | Verbatim quotes from the Lakatoš tractor repair meme — source: milujipraci.cz |
 
 More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Packs tagged `nsfw` contain vulgar content suitable only for adult audiences.

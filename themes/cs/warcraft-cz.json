@@ -1,0 +1,32 @@
+{
+  "name": "warcraft-cz",
+  "description": "Verbatim quotes from the Czech dub of Warcraft III: Reign of Chaos",
+  "tags": ["cs", "games", "retro", "dubbing", "warcraft"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Zase práce?",
+      "Hurá do práce!",
+      "Už je to tak, je ze mě mrtvola",
+      "Vy že jste král? Já vás volit nebudu!",
+      "Pomóc jsem utlačovanej!",
+      "Za Hordu život položím!",
+      "Za Kladivo Zhouby!",
+      "Dabu!",
+      "Svítí, svítí slunce nad hlavou",
+      "Lok'tar!",
+      "Da habu!",
+      "Mrazivý smutek hladoví!",
+      "Za Ner'Zhula",
+      "Já jsem temnota",
+      "Klikni si na mě ještě jednou, brouku!",
+      "Potřebuješ něco, hafíku?",
+      "Zavřít oči brouku aaa píchat",
+      "Má víra ve světlo je neochvějná",
+      "Uchop meč - jdi na zteč",
+      "Duchové jsou neklidní",
+      "Důvěřuj ale prověřuj!",
+      "Jsem hodné děvče!"
+    ]
+  }
+}
