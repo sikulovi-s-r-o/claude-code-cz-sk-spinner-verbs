@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Existing packs and installation help
+    url: https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/blob/main/README.md
+    about: Please check the README first — it covers install, commands, and all built-in packs.
+  - name: How to contribute a pack
+    url: https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/blob/main/CONTRIBUTING.md
+    about: Walkthrough for building and submitting a new theme pack.

@@ -60,7 +60,7 @@ Claude relays script output verbatim to user
 
 All subcommands (`random`, `list`, `status`, `off`, `install-autorotate`, `uninstall-autorotate`) route through the same dispatcher.
 
-**Hot-reload:** AlexPl292's docs state no session restart is needed. Verify during V1 implementation testing; if not hot-reload, the user-facing message becomes "active on next session".
+**Hot-reload:** Verified during live testing — Claude Code re-reads `spinnerVerbs` via `k8().spinnerVerbs` at each spinner mount (`useState` initializer), so a new theme takes effect on the next prompt in the same session. No restart required.
 
 ## Repository structure
 

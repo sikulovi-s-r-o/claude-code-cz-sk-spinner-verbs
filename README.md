@@ -1,10 +1,21 @@
 # Spinery — Spinner Packs for Claude Code
 
+[![CI](https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/actions/workflows/ci.yml/badge.svg)](https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Claude Code 2.1.23+](https://img.shields.io/badge/Claude%20Code-2.1.23%2B-black.svg)](https://code.claude.com)
+[![Packs: 11](https://img.shields.io/badge/packs-11-green.svg)](#featured-packs-czech--slovak)
+
 Curated spinner verb packs for Claude Code, with **first-class Czech & Slovak content** and community-driven coverage for every language.
 
 ```
-✢ Externě radí… (12s · ↓ 224 tokens)
-🎲 Peče kolínka… (4s · ↓ 512 tokens)
+$ claude
+› Kolik je 2+2?
+
+  ✢ Externě radí…  (3s · ↓ 128 tokens)
+  ✢ Patentuje jogurt…  (5s · ↓ 384 tokens)
+  ✢ Překládá z češtiny do češtiny…  (8s · ↓ 642 tokens)
+
+  4.
 ```
 
 Instead of watching `Transmuting…` / `Cogitating…` for the hundredth time, let Claude Code speak your language, your humor, your culture.
@@ -58,21 +69,30 @@ cd claude-code-cz-sk-spinner-verbs
 
 ## Featured packs (Czech & Slovak)
 
-| Pack | Locale | Verbs | Description |
-|---|---|---|---|
-| [cimrman](themes/cs/cimrman.json) | cs | 25 | Verbatim phrases and play titles from the Jára Cimrman theatre universe |
-| [pelisky](themes/cs/pelisky.json) | cs | 25 | Verbatim quotes from the 1999 Czech film *Pelíšky* |
-| [warcraft-cz](themes/cs/warcraft-cz.json) | cs | 50 | Warcraft 3 CZ dub — best-of mix across all factions |
-| [wc3-lide](themes/cs/wc3-lide.json) | cs | 35 | Warcraft 3 CZ dub — Human units |
-| [wc3-orkove](themes/cs/wc3-orkove.json) | cs | 30 | Warcraft 3 CZ dub — Orc units |
-| [wc3-nemrtvi](themes/cs/wc3-nemrtvi.json) | cs | 33 | Warcraft 3 CZ dub — Undead units |
-| [wc3-elfove](themes/cs/wc3-elfove.json) | cs | 34 | Warcraft 3 CZ dub — Night Elf units |
-| [wc3-nagove](themes/cs/wc3-nagove.json) | cs | 19 | Warcraft 3 CZ dub — Naga units |
-| [wc3-hrdinove](themes/cs/wc3-hrdinove.json) | cs | 40 | Warcraft 3 CZ dub — Heroes |
-| [wc3-neutralni](themes/cs/wc3-neutralni.json) | cs | 35 | Warcraft 3 CZ dub — Neutral units |
-| [lakatos](themes/cs/lakatos.json) | cs · **nsfw** | 30 | Verbatim quotes from the Lakatoš tractor repair meme — source: milujipraci.cz |
+### Culture
+| Pack | Verbs | Description |
+|---|---|---|
+| [cimrman](themes/cs/cimrman.json) | 25 | Verbatim phrases and play titles from the Jára Cimrman theatre universe |
+| [pelisky](themes/cs/pelisky.json) | 25 | Verbatim quotes from the 1999 Czech film *Pelíšky* |
 
-More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Packs tagged `nsfw` contain vulgar content suitable only for adult audiences.
+### Warcraft III Czech dub (356 verbs total across all packs)
+| Pack | Verbs | Description |
+|---|---|---|
+| [warcraft-cz](themes/cs/warcraft-cz.json) | 50 | Best-of mix across all Warcraft 3 factions |
+| [wc3-lide](themes/cs/wc3-lide.json) | 35 | Human units (Peasant, Footman, Rifleman, Sorceress, …) |
+| [wc3-orkove](themes/cs/wc3-orkove.json) | 30 | Orc units (Peon, Grunt, Troll, Wyvern rider) |
+| [wc3-nemrtvi](themes/cs/wc3-nemrtvi.json) | 33 | Undead (Acolyte, Ghoul, Necromancer, Lich) |
+| [wc3-elfove](themes/cs/wc3-elfove.json) | 34 | Night Elves (Huntress, Dryad, Druid, Demon Hunter) |
+| [wc3-nagove](themes/cs/wc3-nagove.json) | 19 | Naga (Siren, Myrmidon, Royal Guard, Sea Witch) |
+| [wc3-hrdinove](themes/cs/wc3-hrdinove.json) | 40 | Heroes (Arthas, Jaina, Thrall, Illidan, …) |
+| [wc3-neutralni](themes/cs/wc3-neutralni.json) | 35 | Neutral units (Ogres, Bandits, Dark Ranger, Pit Lord) |
+
+### Internet memes — **NSFW**
+| Pack | Verbs | Description |
+|---|---|---|
+| [lakatos](themes/cs/lakatos.json) ⚠️ | 30 | Verbatim quotes from the viral "Miluji svoji práci!" Lakatoš tractor repair meme. Source: [milujipraci.cz](http://milujipraci.cz). **Adult language throughout** — tagged `nsfw` so safe-only configurations can filter it out. |
+
+More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## How it works
 
