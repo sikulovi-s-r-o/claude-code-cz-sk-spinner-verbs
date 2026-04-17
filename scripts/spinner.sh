@@ -6,8 +6,14 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PLUGIN_ROOT="$(dirname "$SCRIPT_DIR")"
 THEMES_DIR="${PLUGIN_ROOT}/themes"
-SETTINGS="${HOME}/.claude/settings.json"
-STATE_FILE="${HOME}/.claude/spinery.state"
+
+# Claude Code config directory:
+#   - native install sets CLAUDE_CONFIG_DIR in the shell (usually ~/.claude-work)
+#   - npm install defaults to ~/.claude
+# Honor the env var when present so spinery writes where Claude Code reads.
+CLAUDE_DIR="${CLAUDE_CONFIG_DIR:-${HOME}/.claude}"
+SETTINGS="${CLAUDE_DIR}/settings.json"
+STATE_FILE="${CLAUDE_DIR}/spinery.state"
 
 # ---------- util ----------
 
