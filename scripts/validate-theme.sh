@@ -20,7 +20,12 @@ warn(){ printf '%s %s\n' "$(yellow 'WARN:')" "$1" >&2; }
 pass(){ printf '%s %s\n' "$(green 'OK:')"   "$1"; }
 
 require_ajv() {
-  if ! command -v ajv >/dev/null 2>&1; then
+  if command -v ajv >/dev/null 2>&1; then
+    AJV_CMD=(ajv)
+  elif command -v npx >/dev/null 2>&1; then
+    # Fallback for local dev without a global install
+    AJV_CMD=(npx -y -p ajv-cli -p ajv-formats -- ajv)
+  else
     die "ajv-cli is required. Install: npm install -g ajv-cli ajv-formats"
   fi
 }
@@ -31,9 +36,8 @@ require_jq() {
 
 validate_schema() {
   local file="$1"
-  if ! ajv validate -s "$SCHEMA" -d "$file" >/dev/null 2>&1; then
-    # Re-run with output visible for debugging
-    ajv validate -s "$SCHEMA" -d "$file" || true
+  if ! "${AJV_CMD[@]}" validate -s "$SCHEMA" -d "$file" >/dev/null 2>&1; then
+    "${AJV_CMD[@]}" validate -s "$SCHEMA" -d "$file" || true
     die "Schema validation failed: $file"
   fi
 }
@@ -91,14 +95,9 @@ main() {
   require_jq
   require_ajv
 
+  local -a files=()
   if [[ $# -eq 0 ]]; then
-    # Default: validate everything
-    mapfile -t files < <(find "$THEMES_DIR" -type f -name '*.json' ! -name '_template.json' 2>/dev/null) || true
-    if [[ ${#files[@]:-0} -eq 0 ]]; then
-      # bash 3 fallback
-      files=()
-      while IFS= read -r f; do files+=("$f"); done < <(find "$THEMES_DIR" -type f -name '*.json' ! -name '_template.json')
-    fi
+    while IFS= read -r f; do files+=("$f"); done < <(find "$THEMES_DIR" -type f -name '*.json' ! -name '_template.json')
   else
     files=("$@")
   fi
