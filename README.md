@@ -91,7 +91,7 @@ cd claude-code-cz-sk-spinner-verbs
 | Pack | Verbs | Description |
 |---|---|---|
 | [lakatos](themes/cs/lakatos.json) ⚠️ | 30 | Verbatim quotes from the viral "Miluji svoji práci!" Lakatoš tractor repair meme. Source: [milujipraci.cz](http://milujipraci.cz). **Adult language throughout** — tagged `nsfw` so safe-only configurations can filter it out. |
-| [brnensky-trener](themes/cs/brnensky-trener.json) ⚠️ | 30 | Verbatim quotes from the viral *Nasraný trenér dorostu z Brna* hockey-coach rant. Brno dialect + crude frustration (*Pánové, já mám na to seru*, *Rychle si odletím zpátky na Floridu*). Tagged `nsfw`. |
+| [brnensky-trener](themes/cs/brnensky-trener.json) ⚠️ | 46 | Verbatim quotes from the viral *Nasraný trenér dorostu z Brna* hockey-coach rant. Brno dialect + crude frustration (*Pánové, já mám na to seru*, *Budeš bytlet v tvarohárně*, *Rychle si odletím zpátky na Floridu*). Tagged `nsfw`. |
 
 More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
