@@ -1,0 +1,29 @@
+{
+  "name": "wc3-nagove",
+  "description": "Verbatim Czech dub quotes from Warcraft 3 Naga units",
+  "tags": ["cs", "games", "retro", "dubbing", "warcraft", "wc3"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Z hlubin se ozývají mé písně",
+      "Mé písně patří tobě",
+      "Hej, námořníče!",
+      "Čekám se zatajeným dechem",
+      "Nebuď tak povrchní",
+      "Zdám se ti přitažlivá?",
+      "Mého bratrance zabil plavec",
+      "Přicházím z temných hlubin",
+      "Po tisících letech máme odplatu na dosah",
+      "Jsem připravena",
+      "V hlubině tvůj křik nikdo neuslyší",
+      "Mám plán na ovládnutí světa",
+      "Tenhle svět bude patřit mně",
+      "A já začnu plaveckými bazény",
+      "Ledový čaj je součástí naší ofenzívy",
+      "Den naší invaze bude známý jako Den B",
+      "Illidan nám ukáže cestu k moci",
+      "Prokletá mořská voda",
+      "Sluneční světlo je příliš silné"
+    ]
+  }
+}

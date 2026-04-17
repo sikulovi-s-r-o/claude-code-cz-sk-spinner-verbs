@@ -1,0 +1,40 @@
+{
+  "name": "wc3-orkove",
+  "description": "Verbatim Czech dub quotes from Warcraft 3 Orc units",
+  "tags": ["cs", "games", "retro", "dubbing", "warcraft", "wc3"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Mám práci, nechte mě",
+      "Teď není čas na hraní",
+      "Já nejsem jen tak nějakej ork",
+      "Za hordu život položím",
+      "Proč do mě zase strkáte?",
+      "Klép, klép, klép",
+      "A umíte vy ještě něco?",
+      "Můj hlas nezní jako Yodův",
+      "Být zelený není vůbec jednoduché",
+      "Zul'jin bude pomstěn",
+      "Pane veliteli, nechcete doutníček?",
+      "Blbouné, blbá, hluchá, nadřízená",
+      "Rozluč se s mým malým přítelem",
+      "Dokážeš seslat blesky tam, kde nesvítí slunce?",
+      "Padá nebe, pořád mi kape na hlavu",
+      "Na hru není čas. Volá války hlas",
+      "Leze, leze, po železe",
+      "Mám hlad jako vlk",
+      "Čestmíre, já letím",
+      "Létající Čestmír!",
+      "Tamhle je pták. Tamhle letadlo. A tamhle já",
+      "Hlásí se modrý troll",
+      "Hej, buď sticha",
+      "Netopír pak neslyší, kudy má letět",
+      "Vidím tvůj dům. Hoří",
+      "Má čepel prahne po pomstě",
+      "Důvěřuj, ale prověřuj",
+      "Vidím mrtvé lidi",
+      "Dávno, předávno jsme neměli množné číslo",
+      "Bafni a dej dál"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "wc3-nemrtvi",
+  "description": "Verbatim Czech dub quotes from Warcraft 3 Undead units",
+  "tags": ["cs", "games", "retro", "dubbing", "warcraft", "wc3"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Zatracení jsou připraveni",
+      "Já vysávat mozky",
+      "Spáč se probudil",
+      "Pavouk cítí šimrání",
+      "Sloužím smrti",
+      "Smrt je už netrpělivá",
+      "Každý muž žije, ne každý skutečně umírá",
+      "Miluji smrt, častokrát",
+      "Vidím nemrtvé lidi",
+      "Klepněte pravým",
+      "Tvá duše se bude smažit",
+      "Jak dlouho budu ještě trpět?",
+      "Stanu se vašima očima",
+      "Jsem pouhým stínem minulé bytosti",
+      "Sama smrt je odměnou",
+      "Asi prožívám krizi uprostřed smrti",
+      "Jsem neviditelný, plynný a smrtící",
+      "Smlouva je spečetěna",
+      "Má trpělivost je u konce",
+      "Já jsem temnota",
+      "Copak už peklo zamrzlo?",
+      "Jsem jediným ze strašlivých jezdců",
+      "Nesnáším lidi, ale miluji jejich shromáždění",
+      "Přijď, zúčtujem spolu",
+      "Nedotýkej se mě, jsem zlý",
+      "Zlo přetrvá na věky",
+      "Jsem duch minulých Warcraftů",
+      "Měl byste vidět kostlivce v mé skříni",
+      "Přicházím z hlubin",
+      "Sloužím jedině Ledovému trůnu",
+      "Pohroma vše pohltí",
+      "Je výhodné být králem",
+      "Jsem pátý brouk"
+    ]
+  }
+}

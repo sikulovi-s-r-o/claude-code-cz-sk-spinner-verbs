@@ -62,7 +62,14 @@ cd spinery
 |---|---|---|---|
 | [cimrman](themes/cs/cimrman.json) | cs | 25 | Verbatim phrases and play titles from the Jára Cimrman theatre universe |
 | [pelisky](themes/cs/pelisky.json) | cs | 25 | Verbatim quotes from the 1999 Czech film *Pelíšky* |
-| [warcraft-cz](themes/cs/warcraft-cz.json) | cs | 50 | Verbatim quotes from the Czech dub of Warcraft III: Reign of Chaos |
+| [warcraft-cz](themes/cs/warcraft-cz.json) | cs | 50 | Warcraft 3 CZ dub — best-of mix across all factions |
+| [wc3-lide](themes/cs/wc3-lide.json) | cs | 35 | Warcraft 3 CZ dub — Human units |
+| [wc3-orkove](themes/cs/wc3-orkove.json) | cs | 30 | Warcraft 3 CZ dub — Orc units |
+| [wc3-nemrtvi](themes/cs/wc3-nemrtvi.json) | cs | 33 | Warcraft 3 CZ dub — Undead units |
+| [wc3-elfove](themes/cs/wc3-elfove.json) | cs | 34 | Warcraft 3 CZ dub — Night Elf units |
+| [wc3-nagove](themes/cs/wc3-nagove.json) | cs | 19 | Warcraft 3 CZ dub — Naga units |
+| [wc3-hrdinove](themes/cs/wc3-hrdinove.json) | cs | 40 | Warcraft 3 CZ dub — Heroes |
+| [wc3-neutralni](themes/cs/wc3-neutralni.json) | cs | 35 | Warcraft 3 CZ dub — Neutral units |
 | [lakatos](themes/cs/lakatos.json) | cs · **nsfw** | 30 | Verbatim quotes from the Lakatoš tractor repair meme — source: milujipraci.cz |
 
 More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Packs tagged `nsfw` contain vulgar content suitable only for adult audiences.
