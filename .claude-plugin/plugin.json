@@ -1,0 +1,14 @@
+{
+  "name": "spinery",
+  "displayName": "Spinery — Spinner Packs for Claude Code",
+  "description": "Curated spinner verb packs for Claude Code with first-class Czech & Slovak content",
+  "version": "0.1.0",
+  "author": {
+    "name": "sikulam",
+    "url": "https://github.com/sikulam"
+  },
+  "homepage": "https://github.com/sikulam/spinery",
+  "repository": "https://github.com/sikulam/spinery",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "spinner", "verbs", "themes", "czech", "slovak"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "your-theme-name",
+  "description": "Short English description (10-200 chars) explaining the theme",
+  "tags": ["cs", "movies", "humor"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "First verb or phrase",
+      "Second verb or phrase",
+      "Third verb or phrase",
+      "Fourth verb or phrase",
+      "Fifth verb or phrase",
+      "Sixth verb or phrase",
+      "Seventh verb or phrase",
+      "Eighth verb or phrase",
+      "Ninth verb or phrase",
+      "Tenth verb or phrase"
+    ]
+  }
+}

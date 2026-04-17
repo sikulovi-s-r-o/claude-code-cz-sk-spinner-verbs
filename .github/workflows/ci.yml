@@ -1,0 +1,35 @@
+name: Validate themes
+
+on:
+  pull_request:
+    paths:
+      - 'themes/**'
+      - 'schemas/**'
+      - 'scripts/validate-theme.sh'
+      - '.github/workflows/ci.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli + jq
+        run: |
+          npm install -g ajv-cli ajv-formats
+          sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Validate all themes
+        run: ./scripts/validate-theme.sh
+
+      - name: Lint dispatcher and validator scripts
+        run: |
+          bash -n scripts/spinner.sh
+          bash -n scripts/validate-theme.sh

@@ -1,0 +1,35 @@
+{
+  "name": "pelisky",
+  "description": "Phrases inspired by the 1999 Czech film Pelíšky",
+  "tags": ["cs", "movies", "nostalgic", "humor"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Rozbíjí teploměr",
+      "Peče kolínka",
+      "Varuje syna",
+      "Čeká na Boženku",
+      "Boří chatu",
+      "Kritizuje kapitalismus",
+      "Poslouchá Hlas Ameriky",
+      "Sleduje Kučeru",
+      "Maluje pokoj",
+      "Strhává propagaci",
+      "Roluje peřinu",
+      "Vymýšlí nadávky",
+      "Prostírá k večeři",
+      "Zahnívá v paneláku",
+      "Sype si popel",
+      "Jí mňamku",
+      "Nese tělo dál",
+      "Kubelíkuje",
+      "Rozbíjí hřebíky",
+      "Volá Šebka",
+      "Ovívá se na balkoně",
+      "Odmítá dávat",
+      "Kope do futra",
+      "Doručuje špatné zprávy",
+      "Sype sůl do ran"
+    ]
+  }
+}

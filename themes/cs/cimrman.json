@@ -1,0 +1,35 @@
+{
+  "name": "cimrman",
+  "description": "Phrases inspired by the Jára Cimrman theatre universe",
+  "tags": ["cs", "theatre", "humor", "retro"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Externě radí",
+      "Patentuje jogurt",
+      "Zkoumá severák",
+      "Liptákuje",
+      "Překládá z češtiny do češtiny",
+      "Konstruuje perpetuum",
+      "Sepisuje operetu",
+      "Dojíždí z Liptákova",
+      "Sklízí neexistující úspěch",
+      "Přednáší externě",
+      "Bádá do hloubky",
+      "Vymýšlí jogurt",
+      "Objevuje Ameriku pozdě",
+      "Stěhuje divadlo",
+      "Hraje neviditelně",
+      "Píše na okraj",
+      "Konzultuje s Ypsilonem",
+      "Dokresluje vynález",
+      "Recituje z hlavy",
+      "Odjíždí do Vídně",
+      "Pozoruje ze zákulisí",
+      "Cvičí před zrcadlem",
+      "Vybádává nové",
+      "Koumá v Liptákově",
+      "Obchází severní pól"
+    ]
+  }
+}
