@@ -1,0 +1,19 @@
+{
+  "name": "spinery",
+  "owner": {
+    "name": "sikulam",
+    "url": "https://github.com/sikulam"
+  },
+  "metadata": {
+    "description": "Curated spinner verb packs for Claude Code with first-class Czech & Slovak content"
+  },
+  "plugins": [
+    {
+      "name": "spinery",
+      "source": "./",
+      "description": "Curated spinner verb packs for Claude Code with first-class Czech & Slovak content",
+      "category": "customization",
+      "homepage": "https://github.com/sikulam/spinery"
+    }
+  ]
+}

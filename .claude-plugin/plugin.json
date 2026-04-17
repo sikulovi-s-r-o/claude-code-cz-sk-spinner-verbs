@@ -10,5 +10,6 @@
   "homepage": "https://github.com/sikulam/spinery",
   "repository": "https://github.com/sikulam/spinery",
   "license": "MIT",
-  "keywords": ["claude-code", "plugin", "spinner", "verbs", "themes", "czech", "slovak"]
+  "keywords": ["claude-code", "plugin", "spinner", "verbs", "themes", "czech", "slovak"],
+  "commands": "./commands/"
 }
