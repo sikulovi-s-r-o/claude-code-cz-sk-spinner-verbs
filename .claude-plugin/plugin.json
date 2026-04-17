@@ -7,8 +7,8 @@
     "name": "sikulam",
     "url": "https://github.com/sikulam"
   },
-  "homepage": "https://github.com/sikulam/spinery",
-  "repository": "https://github.com/sikulam/spinery",
+  "homepage": "https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs",
+  "repository": "https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs",
   "license": "MIT",
   "keywords": ["claude-code", "plugin", "spinner", "verbs", "themes", "czech", "slovak"],
   "commands": "./commands/"

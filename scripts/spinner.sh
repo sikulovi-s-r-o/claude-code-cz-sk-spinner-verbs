@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # spinery — Claude Code spinner pack manager
-# https://github.com/sikulam/spinery
+# https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -105,7 +105,7 @@ Usage:
   /spinner install-autorotate   Install shell wrapper that rotates on each `claude` start
   /spinner uninstall-autorotate Remove the shell wrapper
 
-Learn more: https://github.com/sikulam/spinery
+Learn more: https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs
 EOF
 }
 
@@ -209,7 +209,7 @@ detect_rc_file() {
       fi
       ;;
     fish)
-      die "fish shell is not yet supported by install-autorotate. Please open an issue or PR: https://github.com/sikulam/spinery"
+      die "fish shell is not yet supported by install-autorotate. Please open an issue or PR: https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs"
       ;;
     *)
       die "Unknown shell '${shell_base}'. Set SHELL or install manually per README."

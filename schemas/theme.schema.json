@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/sikulam/spinery/schemas/theme.schema.json",
+  "$id": "https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/schemas/theme.schema.json",
   "title": "Spinery theme",
   "type": "object",
   "required": ["name", "description", "tags", "spinnerVerbs"],

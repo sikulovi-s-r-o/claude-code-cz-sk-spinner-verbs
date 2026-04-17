@@ -2,7 +2,7 @@
 
 **Status:** Draft (brainstorm output, pending implementation plan)
 **Date:** 2026-04-17
-**Repo target:** `github.com/sikulam/spinery`
+**Repo target:** `github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs`
 **License:** MIT
 
 ## Problem & motivation
@@ -103,7 +103,7 @@ spinery/
     "name": "sikulam",
     "url": "https://github.com/sikulam"
   },
-  "homepage": "https://github.com/sikulam/spinery",
+  "homepage": "https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs",
   "license": "MIT",
   "commands": ["./commands/spinner.md"]
 }
@@ -320,7 +320,7 @@ Paste 3–5 representative verbs here:
 
 ## Launch checklist
 
-- [ ] Repo `sikulam/spinery` created, MIT license
+- [ ] Repo `sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs` created, MIT license
 - [ ] `.claude-plugin/plugin.json` + `commands/spinner.md` written
 - [ ] `scripts/spinner.sh` functional for all 7 subcommands, manually tested end-to-end
 - [ ] `schemas/theme.schema.json` + `scripts/validate-theme.sh` pass for both packs

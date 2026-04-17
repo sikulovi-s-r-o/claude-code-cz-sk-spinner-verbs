@@ -23,14 +23,14 @@ Instead of watching `Transmuting…` / `Cogitating…` for the hundredth time, l
 ### As a Claude Code plugin (recommended)
 
 ```
-/plugin marketplace add sikulam/spinery
-/plugin install spinery
+/plugin marketplace add sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs
+/plugin install spinery@spinery
 ```
 
 Then from any session:
 
 ```
-/spinner cimrman
+/spinery:spinner cimrman
 ```
 
 ### Manually (no plugin)
@@ -38,8 +38,8 @@ Then from any session:
 Clone the repo and run the dispatcher directly:
 
 ```bash
-git clone https://github.com/sikulam/spinery.git
-cd spinery
+git clone https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs.git
+cd claude-code-cz-sk-spinner-verbs
 ./scripts/spinner.sh list
 ./scripts/spinner.sh cimrman
 ```
