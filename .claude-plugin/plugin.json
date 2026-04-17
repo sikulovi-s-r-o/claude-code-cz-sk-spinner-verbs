@@ -2,7 +2,7 @@
   "name": "spinery",
   "displayName": "Spinery — Spinner Packs for Claude Code",
   "description": "Curated spinner verb packs for Claude Code with first-class Czech & Slovak content",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "sikulam",
     "url": "https://github.com/sikulam"
