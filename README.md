@@ -60,10 +60,11 @@ cd spinery
 
 | Pack | Locale | Verbs | Description |
 |---|---|---|---|
-| [cimrman](themes/cs/cimrman.json) | cs | 25 | Phrases inspired by the Jára Cimrman theatre universe |
-| [pelisky](themes/cs/pelisky.json) | cs | 25 | Phrases inspired by the 1999 Czech film *Pelíšky* |
+| [cimrman](themes/cs/cimrman.json) | cs | 25 | Verbatim phrases and play titles from the Jára Cimrman theatre universe |
+| [pelisky](themes/cs/pelisky.json) | cs | 25 | Verbatim quotes from the 1999 Czech film *Pelíšky* |
+| [lakatos](themes/cs/lakatos.json) | cs · **nsfw** | 30 | Verbatim quotes from the Lakatoš tractor repair meme — source: milujipraci.cz |
 
-More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Packs tagged `nsfw` contain vulgar content suitable only for adult audiences.
 
 ## How it works
 

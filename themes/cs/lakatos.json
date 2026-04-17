@@ -1,0 +1,40 @@
+{
+  "name": "lakatos",
+  "description": "Verbatim quotes from the Lakatoš tractor repair meme (source: milujipraci.cz, NSFW)",
+  "tags": ["cs", "meme", "internet", "nsfw", "adult"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Ani za kokot vole!",
+      "Do piče!",
+      "Hajzli jedni!",
+      "Hoši, toto je neuvěřitelné!",
+      "Já se z toho musím pojebat!",
+      "Já to mrdám!",
+      "Jedinou pičovinku!",
+      "Jedu do piči!",
+      "KURVA!",
+      "To není možné!",
+      "Nebudu to dělat!",
+      "Past vedle pasti!",
+      "To je nemožné!",
+      "To není normální!",
+      "To sou nervy ty pičo!",
+      "Abys mohl toto!",
+      "Ani očko nenasadíš!",
+      "Banální věc!",
+      "Já to nejdu dělat!",
+      "Kurva už!",
+      "Ne, nenasadíš ho!",
+      "Největší blbec na zeměkouli!",
+      "Nenasadím!",
+      "Neřešitelný problém hoši!",
+      "Nevím jak!",
+      "Okamžitě zabít ty kurvy!",
+      "Počkej kámo!",
+      "Tady musíš všechno rozdělat!",
+      "Tuto piču potřebuju utáhnout!",
+      "Zasrané, zamrdané!"
+    ]
+  }
+}
