@@ -221,12 +221,19 @@ AUTOROTATE_BEGIN='# === spinery-autorotate:begin ==='
 AUTOROTATE_END='# === spinery-autorotate:end ==='
 
 autorotate_block() {
-  cat <<EOF
-${AUTOROTATE_BEGIN}
-# Managed by spinery; remove with: /spinner uninstall-autorotate
-__spinery_rotate() { "${SCRIPT_DIR}/spinner.sh" random >/dev/null 2>&1 || true; }
-claude() { __spinery_rotate; command claude "\$@"; }
-${AUTOROTATE_END}
+  cat <<'EOF'
+# === spinery-autorotate:begin ===
+# Managed by spinery; remove with: /spinner uninstall-autorotate.
+# The block resolves the latest installed spinery plugin each time, so
+# it keeps working across Claude Code plugin updates.
+__spinery_rotate() {
+  local root
+  root=$(ls -d "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"/plugins/cache/spinery/spinery/*/ 2>/dev/null | sort -V | tail -1)
+  [[ -n "$root" && -x "${root}scripts/spinner.sh" ]] || return 0
+  "${root}scripts/spinner.sh" random >/dev/null 2>&1 || true
+}
+claude() { __spinery_rotate; command claude "$@"; }
+# === spinery-autorotate:end ===
 EOF
 }
 
