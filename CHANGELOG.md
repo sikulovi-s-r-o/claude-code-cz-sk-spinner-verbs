@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.6] — 2026-04-17
+
+### Fixed
+- `install-autorotate` shell wrapper is now path-independent. The
+  block in `~/.zshrc` (or `~/.bashrc`) resolves the latest installed
+  spinery cache at runtime instead of baking a versioned path in —
+  rotation survives Claude Code plugin updates without user action.
+- `scripts/validate-theme.sh` falls back to `npx` when `ajv-cli` is
+  not globally installed, and replaces bash 4 `mapfile` with a
+  portable `while read` loop so the validator works on macOS default
+  bash 3.2.
+
+### Changed
+- Repository renamed to `sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs`
+  for SEO + discoverability. Plugin name stays `spinery` (short slash
+  command prefix preserved).
+
+### Added
+- `CHANGELOG.md`, `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1).
+- `.github/ISSUE_TEMPLATE/` — bug_report, feature_request, new_pack,
+  and a config.yml redirecting common questions to README / CONTRIBUTING.
+- README badges (CI, license, Claude Code version, packs count) and
+  terminal-example snippet of the spinner in action.
+
+### Removed
+- `docs/IMPLEMENTATION_PLAN.md` (brainstorming artifact, not needed
+  for public readers).
+
 ## [0.1.5] — 2026-04-17
 
 ### Added
