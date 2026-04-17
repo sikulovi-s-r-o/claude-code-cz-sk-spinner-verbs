@@ -42,7 +42,7 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 60
+            "maxLength": 80
           },
           "minItems": 10,
           "maxItems": 100,

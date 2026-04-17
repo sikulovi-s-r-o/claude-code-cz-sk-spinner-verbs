@@ -19,7 +19,7 @@ Thanks for the interest. Contributing a new spinner pack is straightforward — 
 | `description` | English, 10–200 chars, one line |
 | `tags` | 1–10 tags, lowercase + hyphens; locale folders (`cs`, `sk`, `en`) require the matching locale tag |
 | `spinnerVerbs.mode` | `replace` (default) or `append` |
-| `spinnerVerbs.verbs` | 10–100 unique strings, each 1–60 chars |
+| `spinnerVerbs.verbs` | 10–100 unique strings, each 1–80 chars |
 
 ### Content guidance
 

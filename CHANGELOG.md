@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.8] — 2026-04-17
+
+### Changed
+- Split `brnensky-trener` into two packs curated by native speaker:
+  - `brnensky-trener-best` (54 verbs) — hand-picked punchlines
+  - `brnensky-trener-full` (93 verbs) — complete verbatim transcript
+- Bumped verb `maxLength` from 60 to 80 chars in the theme schema. Czech
+  memes often carry the punchline in a long sentence (e.g. *Jestli
+  uvidím pizzu, nakopnu ho do prdele, vyletí před zimák*); the old
+  limit forced mangling that killed the joke. Wider terminals handle
+  80-char verbs without visual issues.
+
+### Removed
+- `brnensky-trener` (merged into the new split packs above).
+
 ## [0.1.7] — 2026-04-17
 
 ### Added
