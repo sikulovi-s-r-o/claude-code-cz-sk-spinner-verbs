@@ -3,7 +3,7 @@
 [![CI](https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/actions/workflows/ci.yml/badge.svg)](https://github.com/sikulovi-s-r-o/claude-code-cz-sk-spinner-verbs/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code 2.1.23+](https://img.shields.io/badge/Claude%20Code-2.1.23%2B-black.svg)](https://code.claude.com)
-[![Packs: 11](https://img.shields.io/badge/packs-11-green.svg)](#featured-packs-czech--slovak)
+[![Packs: 12](https://img.shields.io/badge/packs-12-green.svg)](#featured-packs-czech--slovak)
 
 Curated spinner verb packs for Claude Code, with **first-class Czech & Slovak content** and community-driven coverage for every language.
 
@@ -91,6 +91,7 @@ cd claude-code-cz-sk-spinner-verbs
 | Pack | Verbs | Description |
 |---|---|---|
 | [lakatos](themes/cs/lakatos.json) ⚠️ | 30 | Verbatim quotes from the viral "Miluji svoji práci!" Lakatoš tractor repair meme. Source: [milujipraci.cz](http://milujipraci.cz). **Adult language throughout** — tagged `nsfw` so safe-only configurations can filter it out. |
+| [brnensky-trener](themes/cs/brnensky-trener.json) ⚠️ | 30 | Verbatim quotes from the viral *Nasraný trenér dorostu z Brna* hockey-coach rant. Brno dialect + crude frustration (*Pánové, já mám na to seru*, *Rychle si odletím zpátky na Floridu*). Tagged `nsfw`. |
 
 More CZ/SK packs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 

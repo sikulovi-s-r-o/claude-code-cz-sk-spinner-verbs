@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.7] — 2026-04-17
+
+### Added
+- `brnensky-trener` pack (30 verbs, NSFW) — verbatim quotes from the
+  viral *Nasraný trenér dorostu z Brna* rant, transcribed from
+  [YouTube 8N6uTzjwCqI](https://www.youtube.com/watch?v=8N6uTzjwCqI)
+  via Whisper. Brno dialect frustration classics: *Pánové, já mám na
+  to seru*, *Budeš bytlet v tvarohárně*, *Rychle si odletím zpátky
+  na Floridu*.
+
 ## [0.1.6] — 2026-04-17
 
 ### Fixed

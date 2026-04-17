@@ -1,0 +1,40 @@
+{
+  "name": "brnensky-trener",
+  "description": "Verbatim quotes from the viral Nasraný trenér dorostu z Brna rant (NSFW, Brno dialect)",
+  "tags": ["cs", "meme", "internet", "sport", "nsfw", "morava"],
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Pánové, já mám na to seru",
+      "Nebudu se bavit s vašima matkama",
+      "Tyhle ty pičoviny si řečte před slaví",
+      "Toto je extra liga dorostu",
+      "A teď ke konstruktivní práci",
+      "Polkněte tabletku C 1000",
+      "Budeš bytlet v tvarohárně",
+      "Ložťák dáš ji takovej",
+      "Já ti dám o kostici, vole",
+      "Žádný z Kauflandu, Teska a tady tyhle saračky",
+      "Nechci vidět, že žerete přejetý psi",
+      "O pizzu ani náhodou, šánci",
+      "Pícu nakopnu do prdele",
+      "15 minut dřív",
+      "Neexistuje",
+      "To je vrchol",
+      "Tady je to jak lazaret a to je vám 15 let",
+      "Jestli tady víc jen prdel s tou kometou posranou",
+      "Co mě je potom, kurva?",
+      "Neserte mě, abych já tady vydával energii",
+      "Nemám na to náladu ani čas",
+      "Rychle si odletím zpátky na Floridu",
+      "Od teďka začínáme pracovat",
+      "Já jsem zvyklý hrát jenom o titul",
+      "A kdo nás porazí, tak dostane na tlamu",
+      "Vopůl budou všichni veku",
+      "Jdeme okamžitě do posilovny",
+      "A nechcu nic si šet",
+      "Zapomeňte na to",
+      "Konec"
+    ]
+  }
+}
