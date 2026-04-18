@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.9] — 2026-04-18
+
+### Fixed
+- `__spinery_rotate` no longer crashes with `no matches found` in zsh
+  when spinery isn't installed in the current Claude Code config dir.
+  The shell function now checks for the plugin cache directory before
+  globbing, so running `claude` in a context without spinery (e.g.
+  personal `claude` vs work `claude-work`) returns silently instead of
+  printing a shell error.
+
 ## [0.1.8] — 2026-04-17
 
 ### Changed
