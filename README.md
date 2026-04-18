@@ -38,6 +38,18 @@ Instead of watching `Transmuting…` / `Cogitating…` for the hundredth time, l
 /plugin install spinery@spinery
 ```
 
+If your permissions policy makes `Bash` an `ask`-only tool (the default in many setups), add this line to your `~/.claude/settings.json` to stop the approval prompt on every `/spinery:spinner ...` invocation:
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash *spinery*spinner.sh*)"
+    ]
+  }
+}
+```
+
 Then from any session:
 
 ```
